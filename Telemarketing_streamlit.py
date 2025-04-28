@@ -70,7 +70,7 @@ def mstats(model,X,y):
 # ═════════════════════ UI PAGES ══════════════════════
 def page_home():
     st.markdown("## Bank Marketing Campaign Dashboard")
-    st.image(Image.open(IMAGE_PATH),use_column_width=True)
+    st.image(Image.open(IMAGE_PATH),use_container_width=True)
     st.success("Use the sidebar to explore: **Overview → Data Prep → EDA → Models → Predict**")
 
 def page_overview():
