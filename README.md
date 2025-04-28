@@ -45,7 +45,7 @@ Major columns:
 ### 1. Data Preprocessing
 - Created `response_flag` (1 for 'yes', 0 for 'no')
 - Binary encoding and One-Hot Encoding
-- Missing value imputation (`pdays`)
+- Missing value imputation (`pdays`, `age`, `month`)
 - Feature engineering (`was_contacted_before`, `duration_min`)
 - Dropped unnecessary columns (`customerid`, `duration`)
 
